@@ -1,0 +1,23 @@
+body {
+  background-color: #f3eded;
+}
+
+body .menu {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .menu .menu-logo img {
+  max-width: 170px;
+}
+
+body .menu .menu-element {
+  text-align: center;
+}
+
+body .menu .menu-element .menu-element-a {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+body {
+  background-color: #f3eded;
+  .menu {
+    width: 100%;
+    align-items: center;
+    .menu-logo {
+      img {
+        max-width: 170px;
+      }
+    }
+    .menu-element {
+      text-align: center;
+      .menu-element-a {
+        //text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
