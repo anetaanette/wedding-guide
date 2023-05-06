@@ -20,4 +20,68 @@ body .menu .menu-element {
 body .menu .menu-element .menu-element-a {
   color: black;
 }
+
+body .text-section {
+  padding: 4rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body .text-section p {
+  text-align: center;
+}
+
+body .img-section {
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+body .img-section figure {
+  margin: 0 auto;
+}
+
+body .img-section figure img {
+  border-radius: 5%;
+  -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
+          box-shadow: 8px 20px 24px 0px #ac9d9d;
+}
+
+body .img-section figure figcaption {
+  text-align: center;
+}
+
+body footer {
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .footer {
+  margin: 0 auto;
+}
+
+body footer .footer .footer-logo img {
+  max-width: 150px;
+}
+
+body footer .footer .footer-element-1 {
+  gap: 10px;
+}
+
+body footer .footer .footer-element-1 svg {
+  max-width: 25px;
+}
+
+body footer .footer .footer-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
