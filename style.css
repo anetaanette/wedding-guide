@@ -38,12 +38,14 @@ body .img-section {
 
 body .img-section figure {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 body .img-section figure img {
   border-radius: 5%;
   -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
           box-shadow: 8px 20px 24px 0px #ac9d9d;
+  max-width: 100%;
 }
 
 body .img-section figure figcaption {
@@ -83,5 +85,27 @@ body footer .footer .footer-element {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media all and (max-width: 600px) {
+  .container .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+  .container .menu .menu-logo {
+    width: auto;
+  }
+  .container .menu .menu-logo .menu-logo {
+    max-width: 125px;
+  }
+  .container .img-section {
+    padding-bottom: 5rem;
+  }
+  .container .footer-element .footer-logo {
+    max-width: 100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
