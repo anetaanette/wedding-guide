@@ -25,6 +25,23 @@ body .mrt .mrt-textes .mrt-text {
   margin-bottom: 1rem;
 }
 
+body .mrt .mrt-textes .image-mrt-rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2.5rem 0 3.5rem;
+}
+
+body .mrt .mrt-textes .image-mrt-rules img {
+  max-width: 100%;
+  border-radius: 25px;
+  -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
+          box-shadow: 8px 20px 24px 0px #ac9d9d;
+}
+
 footer {
   background-color: #fff;
   -webkit-box-align: center;
