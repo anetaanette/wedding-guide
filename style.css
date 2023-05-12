@@ -1,3 +1,8 @@
+* {
+  font-family: "Merriweather", serif !important;
+  font-weight: 300;
+}
+
 body {
   background-color: #f3eded;
 }
@@ -103,6 +108,9 @@ body footer .footer .footer-element {
   }
   body .img-section {
     padding-bottom: 5rem;
+  }
+  body footer {
+    padding-bottom: 2rem;
   }
   body .footer-element .footer-logo {
     max-width: 100px;

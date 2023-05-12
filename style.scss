@@ -1,3 +1,8 @@
+* {
+  font-family: "Merriweather", serif !important;
+  font-weight: 300;
+}
+
 body {
   background-color: #f3eded;
   .menu {
@@ -87,6 +92,9 @@ body {
       padding-bottom: 5rem;
     }
 
+    footer {
+      padding-bottom: 2rem;
+    }
     .footer-element {
       .footer-logo {
         max-width: 100px;
