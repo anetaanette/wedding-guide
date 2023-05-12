@@ -21,61 +21,34 @@ body .menu .menu-element .menu-element-a {
   color: black;
 }
 
-body .text-section {
-  padding: 4rem 0;
-  width: 80%;
-  margin: 0 auto;
+body .mrt .mrt-textes .mrt-text {
+  margin-bottom: 1rem;
 }
 
-body .text-section p {
-  text-align: center;
-}
-
-body .img-section {
-  margin: 0 auto;
-  padding-bottom: 10rem;
-}
-
-body .img-section figure {
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-body .img-section figure img {
-  border-radius: 5%;
-  -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
-          box-shadow: 8px 20px 24px 0px #ac9d9d;
-  max-width: 100%;
-}
-
-body .img-section figure figcaption {
-  text-align: center;
-}
-
-body footer {
+footer {
   background-color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-body footer .footer {
+footer .footer {
   margin: 0 auto;
 }
 
-body footer .footer .footer-logo img {
+footer .footer .footer-logo img {
   max-width: 150px;
 }
 
-body footer .footer .footer-element-1 {
+footer .footer .footer-element-1 {
   gap: 10px;
 }
 
-body footer .footer .footer-element-1 svg {
+footer .footer .footer-element-1 svg {
   max-width: 25px;
 }
 
-body footer .footer .footer-element {
+footer .footer .footer-element {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,24 +61,21 @@ body footer .footer .footer-element {
 }
 
 @media all and (max-width: 600px) {
-  body .container .menu {
+  .container .menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 2rem;
   }
-  body .container .menu .menu-logo {
+  .container .menu .menu-logo {
     width: auto;
   }
-  body .container .menu .menu-logo .menu-logo {
+  .container .menu .menu-logo .menu-logo {
     max-width: 125px;
   }
-  body .img-section {
-    padding-bottom: 5rem;
-  }
-  body .footer-element .footer-logo {
+  .container .footer-element .footer-logo {
     max-width: 100px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=przewodnik.css.map */

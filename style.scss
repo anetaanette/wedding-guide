@@ -69,14 +69,16 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  .container {
-    .menu {
-      flex-direction: column;
-      gap: 2rem;
-      .menu-logo {
-        width: auto;
+  body {
+    .container {
+      .menu {
+        flex-direction: column;
+        gap: 2rem;
         .menu-logo {
-          max-width: 125px;
+          width: auto;
+          .menu-logo {
+            max-width: 125px;
+          }
         }
       }
     }
