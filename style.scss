@@ -1,104 +1,33 @@
-* {
-  font-family: "Merriweather", serif !important;
-  font-weight: 300;
+.text-section {
+  padding: 4rem 0;
+  width: 80%;
+  margin: 0 auto;
+  p {
+    text-align: center;
+  }
 }
 
-body {
-  background-color: #f3eded;
-  .menu {
-    width: 100%;
-    align-items: center;
-    .menu-logo {
-      img {
-        max-width: 170px;
-      }
-    }
-    .menu-element {
-      text-align: center;
-      .menu-element-a {
-        color: black;
-      }
-    }
-  }
-  .text-section {
-    padding: 4rem 0;
-    width: 80%;
-    margin: 0 auto;
-    p {
-      text-align: center;
-    }
-  }
+.img-section {
+  margin: 0 auto;
+  padding-bottom: 10rem;
 
-  .img-section {
+  figure {
     margin: 0 auto;
-    padding-bottom: 10rem;
-
-    figure {
-      margin: 0 auto;
+    max-width: 100%;
+    img {
+      border-radius: 5%;
+      box-shadow: 8px 20px 24px 0px rgba(172, 157, 157, 1);
       max-width: 100%;
-      img {
-        border-radius: 5%;
-        box-shadow: 8px 20px 24px 0px rgba(172, 157, 157, 1);
-        max-width: 100%;
-      }
-
-      figcaption {
-        text-align: center;
-      }
     }
-  }
 
-  footer {
-    background-color: #fff;
-    align-items: center;
-    .footer {
-      margin: 0 auto;
-      .footer-logo {
-        img {
-          max-width: 150px;
-        }
-      }
-      .footer-element-1 {
-        gap: 10px;
-        svg {
-          max-width: 25px;
-        }
-      }
-      .footer-element {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+    figcaption {
+      text-align: center;
     }
   }
 }
 
 @media all and (max-width: 600px) {
-  body {
-    .container {
-      .menu {
-        flex-direction: column;
-        gap: 2rem;
-        .menu-logo {
-          width: auto;
-          .menu-logo {
-            max-width: 125px;
-          }
-        }
-      }
-    }
-
-    .img-section {
-      padding-bottom: 5rem;
-    }
-
-    footer {
-      padding-bottom: 2rem;
-    }
-    .footer-element {
-      .footer-logo {
-        max-width: 100px;
-      }
-    }
+  .img-section {
+    padding-bottom: 5rem;
   }
 }

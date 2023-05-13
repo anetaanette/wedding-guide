@@ -1,119 +1,37 @@
-* {
-  font-family: "Merriweather", serif !important;
-  font-weight: 300;
-}
-
-body {
-  background-color: #f3eded;
-}
-
-body .menu {
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .menu .menu-logo img {
-  max-width: 170px;
-}
-
-body .menu .menu-element {
-  text-align: center;
-}
-
-body .menu .menu-element .menu-element-a {
-  color: black;
-}
-
-body .text-section {
+.text-section {
   padding: 4rem 0;
   width: 80%;
   margin: 0 auto;
 }
 
-body .text-section p {
+.text-section p {
   text-align: center;
 }
 
-body .img-section {
+.img-section {
   margin: 0 auto;
   padding-bottom: 10rem;
 }
 
-body .img-section figure {
+.img-section figure {
   margin: 0 auto;
   max-width: 100%;
 }
 
-body .img-section figure img {
+.img-section figure img {
   border-radius: 5%;
   -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
           box-shadow: 8px 20px 24px 0px #ac9d9d;
   max-width: 100%;
 }
 
-body .img-section figure figcaption {
+.img-section figure figcaption {
   text-align: center;
 }
 
-body footer {
-  background-color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body footer .footer {
-  margin: 0 auto;
-}
-
-body footer .footer .footer-logo img {
-  max-width: 150px;
-}
-
-body footer .footer .footer-element-1 {
-  gap: 10px;
-}
-
-body footer .footer .footer-element-1 svg {
-  max-width: 25px;
-}
-
-body footer .footer .footer-element {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 @media all and (max-width: 600px) {
-  body .container .menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 2rem;
-  }
-  body .container .menu .menu-logo {
-    width: auto;
-  }
-  body .container .menu .menu-logo .menu-logo {
-    max-width: 125px;
-  }
-  body .img-section {
+  .img-section {
     padding-bottom: 5rem;
-  }
-  body footer {
-    padding-bottom: 2rem;
-  }
-  body .footer-element .footer-logo {
-    max-width: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
