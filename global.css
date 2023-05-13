@@ -12,6 +12,10 @@ body .menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body .menu .menu-logo img {
@@ -27,10 +31,11 @@ body .menu .menu-element .menu-element-a {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #514e4e;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #fff;
 }
 
 footer .footer {
@@ -47,6 +52,7 @@ footer .footer .footer-element-1 {
 
 footer .footer .footer-element-1 svg {
   max-width: 25px;
+  fill: white;
 }
 
 footer .footer .footer-element {
@@ -73,7 +79,7 @@ footer .footer .footer-element {
     width: auto;
   }
   .container .menu .menu-logo .menu-logo {
-    max-width: 125px;
+    max-width: 100px;
   }
   .container .footer-element .footer-logo {
     max-width: 100px;

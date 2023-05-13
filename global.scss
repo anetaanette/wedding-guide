@@ -8,6 +8,7 @@ body {
   .menu {
     width: 100%;
     align-items: center;
+    flex-direction: column;
     .menu-logo {
       img {
         max-width: 170px;
@@ -23,8 +24,9 @@ body {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #514e4e;
   align-items: center;
+  color: #fff;
   .footer {
     margin: 0 auto;
     .footer-logo {
@@ -36,6 +38,7 @@ footer {
       gap: 10px;
       svg {
         max-width: 25px;
+        fill: white;
       }
     }
     .footer-element {
@@ -54,7 +57,7 @@ footer {
       .menu-logo {
         width: auto;
         .menu-logo {
-          max-width: 125px;
+          max-width: 100px;
         }
       }
     }
