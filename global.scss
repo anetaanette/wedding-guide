@@ -11,13 +11,21 @@ body {
     flex-direction: column;
     .menu-logo {
       img {
-        max-width: 170px;
+        max-width: 150px;
+        margin-bottom: 2rem;
       }
     }
     .menu-element {
       text-align: center;
       .menu-element-a {
         color: black;
+      }
+      &:hover {
+        &::after {
+          content: "";
+          border-bottom: 1px;
+          width: 100%;
+        }
       }
     }
   }
@@ -59,6 +67,9 @@ footer {
         .menu-logo {
           max-width: 100px;
         }
+      }
+      .menu-element-a {
+        font-size: 0.85rem;
       }
     }
 

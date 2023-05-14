@@ -19,7 +19,8 @@ body .menu {
 }
 
 body .menu .menu-logo img {
-  max-width: 170px;
+  max-width: 150px;
+  margin-bottom: 2rem;
 }
 
 body .menu .menu-element {
@@ -28,6 +29,12 @@ body .menu .menu-element {
 
 body .menu .menu-element .menu-element-a {
   color: black;
+}
+
+body .menu .menu-element:hover::after {
+  content: "";
+  border-bottom: 1px;
+  width: 100%;
 }
 
 footer {
@@ -80,6 +87,9 @@ footer .footer .footer-element {
   }
   .container .menu .menu-logo .menu-logo {
     max-width: 100px;
+  }
+  .container .menu .menu-element-a {
+    font-size: 0.85rem;
   }
   .container .footer-element .footer-logo {
     max-width: 100px;
