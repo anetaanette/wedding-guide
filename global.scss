@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
+
 * {
   font-family: "Merriweather", serif !important;
   font-weight: 300;
@@ -10,21 +12,20 @@ body {
     align-items: center;
     flex-direction: column;
     .menu-logo {
+      display: flex;
+      justify-content: center;
       img {
         max-width: 150px;
         margin-bottom: 2rem;
       }
     }
-    .menu-element {
-      text-align: center;
-      .menu-element-a {
-        color: black;
-      }
-      &:hover {
-        &::after {
-          content: "";
-          border-bottom: 1px;
-          width: 100%;
+    .menu-bar {
+      margin-bottom: 2.5rem;
+      .menu-element {
+        text-align: center;
+        .menu-element-a {
+          color: black;
+          text-decoration: none;
         }
       }
     }

@@ -1,3 +1,11 @@
+.mrt p {
+  text-align: center;
+}
+
+.mrt .mrt-textes {
+  text-align: center;
+}
+
 .mrt .mrt-textes .mrt-text {
   margin-bottom: 1rem;
 }
@@ -17,24 +25,5 @@
   border-radius: 25px;
   -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
           box-shadow: 8px 20px 24px 0px #ac9d9d;
-}
-
-@media all and (max-width: 600px) {
-  .container .menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 2rem;
-  }
-  .container .menu .menu-logo {
-    width: auto;
-  }
-  .container .menu .menu-logo .menu-logo {
-    max-width: 125px;
-  }
-  .container .footer-element .footer-logo {
-    max-width: 100px;
-  }
 }
 /*# sourceMappingURL=przewodnik.css.map */
