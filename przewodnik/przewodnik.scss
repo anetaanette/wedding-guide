@@ -8,14 +8,18 @@
       margin-bottom: 1rem;
     }
 
+    .image-mrt-map {
+      margin-bottom: 2rem;
+      img {
+        max-width: 100%;
+      }
+    }
     .image-mrt-rules {
       display: flex;
       justify-content: center;
       margin: 2.5rem 0 3.5rem;
       img {
         max-width: 100%;
-        border-radius: 25px;
-        box-shadow: 8px 20px 24px 0px rgba(172, 157, 157, 1);
       }
     }
   }

@@ -10,6 +10,14 @@
   margin-bottom: 1rem;
 }
 
+.mrt .mrt-textes .image-mrt-map {
+  margin-bottom: 2rem;
+}
+
+.mrt .mrt-textes .image-mrt-map img {
+  max-width: 100%;
+}
+
 .mrt .mrt-textes .image-mrt-rules {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,8 +30,5 @@
 
 .mrt .mrt-textes .image-mrt-rules img {
   max-width: 100%;
-  border-radius: 25px;
-  -webkit-box-shadow: 8px 20px 24px 0px #ac9d9d;
-          box-shadow: 8px 20px 24px 0px #ac9d9d;
 }
 /*# sourceMappingURL=przewodnik.css.map */
