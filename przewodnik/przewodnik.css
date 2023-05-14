@@ -1,5 +1,7 @@
 .mrt p {
   text-align: center;
+  letter-spacing: 1rem;
+  font-weight: 600;
 }
 
 .mrt .mrt-textes {
@@ -30,5 +32,10 @@
 
 .mrt .mrt-textes .image-mrt-rules img {
   max-width: 100%;
+}
+
+.mrt .mrt-textes .image-mrt-queuing img {
+  max-width: 100%;
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=przewodnik.css.map */
