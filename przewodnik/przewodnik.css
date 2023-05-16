@@ -38,4 +38,19 @@
   max-width: 100%;
   margin-bottom: 3rem;
 }
+
+.facts-section .facts {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.facts-section .facts li {
+  margin-bottom: 1rem;
+}
+
+@media all and (max-width: 600px) {
+  .text-section {
+    margin-top: 2rem;
+  }
+}
 /*# sourceMappingURL=przewodnik.css.map */

@@ -89,13 +89,13 @@ footer .footer .footer-element {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 2rem;
+    gap: 0;
   }
   .container .menu .menu-logo {
-    width: auto;
-  }
-  .container .menu .menu-logo .menu-logo {
     max-width: 100px;
+  }
+  .container .menu .menu-bar {
+    margin-bottom: 0;
   }
   .container .menu .menu-element-a {
     font-size: 0.85rem;
