@@ -4,20 +4,17 @@
   .text {
     margin-bottom: 2rem;
   }
+  .photos {
+    gap: 3rem;
+  }
   .img-us {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
-    img {
-      max-width: 100%;
-    }
   }
 
   .menu-wedding {
     display: flex;
     justify-content: center;
-    img {
-      max-width: 100%;
-    }
   }
 }

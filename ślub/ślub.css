@@ -8,6 +8,10 @@
   margin-bottom: 2rem;
 }
 
+.texts-ślub .photos {
+  gap: 3rem;
+}
+
 .texts-ślub .img-us {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,10 +22,6 @@
   margin-bottom: 3rem;
 }
 
-.texts-ślub .img-us img {
-  max-width: 100%;
-}
-
 .texts-ślub .menu-wedding {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,9 +29,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.texts-ślub .menu-wedding img {
-  max-width: 100%;
 }
 /*# sourceMappingURL=ślub.css.map */

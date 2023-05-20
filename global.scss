@@ -75,11 +75,34 @@ footer {
         font-size: 0.85rem;
       }
     }
+    .main-title {
+      margin-top: 3rem;
+    }
 
     .footer-element {
       .footer-logo {
         max-width: 100px;
       }
     }
+  }
+}
+
+.main-subtitle {
+  text-align: center;
+  letter-spacing: 1rem;
+  font-weight: 600;
+}
+
+.main-title {
+  text-align: center;
+  letter-spacing: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+div {
+  img {
+    max-width: 100%;
   }
 }

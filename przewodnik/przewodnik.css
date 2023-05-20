@@ -16,10 +16,6 @@
   margin-bottom: 2rem;
 }
 
-.mrt .mrt-textes .image-mrt-map img {
-  max-width: 100%;
-}
-
 .mrt .mrt-textes .image-mrt-rules {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,12 +26,7 @@
   margin: 2.5rem 0 3.5rem;
 }
 
-.mrt .mrt-textes .image-mrt-rules img {
-  max-width: 100%;
-}
-
 .mrt .mrt-textes .image-mrt-queuing img {
-  max-width: 100%;
   margin-bottom: 3rem;
 }
 
@@ -46,11 +37,5 @@
 
 .facts-section .facts li {
   margin-bottom: 1rem;
-}
-
-@media all and (max-width: 600px) {
-  .text-section {
-    margin-top: 2rem;
-  }
 }
 /*# sourceMappingURL=przewodnik.css.map */

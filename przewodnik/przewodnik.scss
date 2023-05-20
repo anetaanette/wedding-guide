@@ -12,22 +12,15 @@
 
     .image-mrt-map {
       margin-bottom: 2rem;
-      img {
-        max-width: 100%;
-      }
     }
     .image-mrt-rules {
       display: flex;
       justify-content: center;
       margin: 2.5rem 0 3.5rem;
-      img {
-        max-width: 100%;
-      }
     }
 
     .image-mrt-queuing {
       img {
-        max-width: 100%;
         margin-bottom: 3rem;
       }
     }
@@ -35,11 +28,6 @@
 }
 
 .facts-section {
-  p {
-    text-align: center;
-    letter-spacing: 1rem;
-    font-weight: 600;
-  }
   .facts {
     text-align: center;
     list-style-position: inside;
@@ -50,7 +38,4 @@
 }
 
 @media all and (max-width: 600px) {
-  .text-section {
-    margin-top: 2rem;
-  }
 }
