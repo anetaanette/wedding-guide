@@ -63,6 +63,7 @@ footer {
     .menu {
       flex-direction: column;
       gap: 0;
+      margin-bottom: 2rem;
       .menu-logo {
         max-width: 100px;
       }
@@ -88,7 +89,6 @@ footer {
 }
 
 .main-subtitle {
-  text-align: center;
   letter-spacing: 1rem;
   font-weight: 600;
 }
@@ -105,4 +105,8 @@ div {
   img {
     max-width: 100%;
   }
+}
+
+p {
+  text-align: center;
 }

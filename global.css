@@ -83,6 +83,7 @@ footer .footer .footer-element {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
+    margin-bottom: 2rem;
   }
   .container .menu .menu-logo {
     max-width: 100px;
@@ -102,7 +103,6 @@ footer .footer .footer-element {
 }
 
 .main-subtitle {
-  text-align: center;
   letter-spacing: 1rem;
   font-weight: 600;
 }
@@ -117,5 +117,9 @@ footer .footer .footer-element {
 
 div img {
   max-width: 100%;
+}
+
+p {
+  text-align: center;
 }
 /*# sourceMappingURL=global.css.map */

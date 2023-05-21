@@ -1,11 +1,9 @@
 .mrt {
   p {
-    text-align: center;
     letter-spacing: 1rem;
     font-weight: 600;
   }
   .mrt-textes {
-    text-align: center;
     .mrt-text {
       margin-bottom: 1rem;
     }
@@ -27,10 +25,15 @@
   }
 }
 
+.attractions-text {
+  margin-bottom: 2rem;
+}
+
 .facts-section {
   .facts {
     text-align: center;
     list-style-position: inside;
+    padding: 0;
     li {
       margin-bottom: 1rem;
     }
