@@ -118,3 +118,14 @@ p {
 b {
   font-weight: bold;
 }
+
+.flex-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+img {
+  width: 80%;
+}

@@ -130,4 +130,21 @@ p {
 b {
   font-weight: bold;
 }
+
+.flex-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+img {
+  width: 80%;
+}
 /*# sourceMappingURL=global.css.map */
