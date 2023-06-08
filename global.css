@@ -123,10 +123,6 @@ p {
   text-align: center;
 }
 
-.btm-1 {
-  margin-bottom: 1rem;
-}
-
 b {
   font-weight: bold;
 }
@@ -146,5 +142,32 @@ b {
 
 img {
   width: 80%;
+}
+
+.btm-1 {
+  margin-bottom: 1rem;
+}
+
+.btm-2 {
+  margin-bottom: 2rem;
+}
+
+.btm-3 {
+  margin-bottom: 3rem;
+}
+
+.width-50 {
+  max-width: 50%;
+}
+
+.width-80 {
+  max-width: 80%;
+}
+
+@media all and (max-width: 420px) {
+  .d-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=global.css.map */
